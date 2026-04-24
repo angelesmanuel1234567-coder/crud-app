@@ -120,6 +120,55 @@
     .delete:hover {
         background: #dc2626;
     }
+/* 📱 RESPONSIVE */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    form {
+        flex-direction: column;
+        gap: 12px;
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th, td {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    a {
+        font-size: 11px;
+        padding: 5px 8px;
+    }
+}
+/* Scroll más suave en tabla */
+table::-webkit-scrollbar {
+    height: 6px;
+}
+
+table::-webkit-scrollbar-thumb {
+    background: #38bdf8;
+    border-radius: 10px;
+}
 </style>
 </head>
 
